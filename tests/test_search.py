@@ -45,3 +45,6 @@ def test_basic_duck_duck_go_search(open_browser, phrase):
     print("--- Test ended ---")
 
     # raise Exception("--- Incomplete test ---")
+    
+def test_dummy():
+    pass
