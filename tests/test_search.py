@@ -48,4 +48,5 @@ def test_basic_duck_duck_go_search(open_browser, phrase):
     
 def test_dummy():
     # Feature-2
+    # Feature-1
     pass
