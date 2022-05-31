@@ -1,0 +1,5 @@
+{
+  "browser": "Headless Chrome",
+  "implicit_wait": 30,
+  "app_url": "https://duckduckgo.com/"
+}
