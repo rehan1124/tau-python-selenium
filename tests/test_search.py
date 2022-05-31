@@ -47,4 +47,5 @@ def test_basic_duck_duck_go_search(open_browser, phrase):
     # raise Exception("--- Incomplete test ---")
     
 def test_dummy():
+    # Feature-1
     pass
