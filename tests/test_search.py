@@ -9,15 +9,10 @@ from page_objects.results import DuckDuckGoResults
 
 @pytest.mark.parametrize("phrase", ["panda", "icecream", "samosa"])
 def test_basic_duck_duck_go_search(open_browser, phrase):
-    print("--- Starting tests for panda phrase search ---")
+    print(f"--- Starting tests for {phrase} phrase search ---")
 
     go_search = DuckDuckGoSearch(open_browser)
     go_results = DuckDuckGoResults(open_browser)
-
-    # phrase = "Panda"
-
-    # Open DuckDuckGo website
-    # go_search.load()
 
     # User searches for Panda
     print(f"Search for phrase: {phrase}")
@@ -45,8 +40,9 @@ def test_basic_duck_duck_go_search(open_browser, phrase):
     print("--- Test ended ---")
 
     # raise Exception("--- Incomplete test ---")
-    
+
+
 def test_dummy():
     # Feature-2
     # Feature-1
-    pass
+    print("This is just a dummy test")
